@@ -6,7 +6,7 @@ import players.*;
 public class RpgGame {
 
     public static void startGame() {
-        Boss boss = new Boss(400,30);
+        Boss boss = new Boss(2000,30);
         Hero[] heroes = getHeroesArray();
         showStatistics(heroes, boss);
         while (!isFinished(heroes, boss)){
@@ -62,7 +62,8 @@ public class RpgGame {
         Hero[] heroes = {new Warrior(100, 10),
                 new Magical(100, 10),
                 new Hunter(100, 10),
-                new Medical(100, 10)};
+                new Medical(100, 10),
+                new Thor(100,10)};
         return heroes;
     }
 

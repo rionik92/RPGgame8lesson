@@ -4,7 +4,7 @@ import boss.Boss;
 import game.Ability;
 import game.GameEntity;
 
-public abstract class Hero extends GameEntity implements HavingAbility{
+public abstract class Hero extends GameEntity implements HavingAbility {
 
     private Ability ability;
 
@@ -17,7 +17,6 @@ public abstract class Hero extends GameEntity implements HavingAbility{
     public Ability getAbility() {
         return ability;
     }
-
 
 
 }
